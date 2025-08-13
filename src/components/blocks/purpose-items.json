@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_purpose_items",
+  "info": {
+    "displayName": "PurposeItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "PurposeItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.purpose-single"
+    }
+  }
+}

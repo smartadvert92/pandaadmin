@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_cxr_blocks",
+  "info": {
+    "displayName": "CXRBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "CXRCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.cxr-cards"
+    },
+    "BackgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "dark green"
+      ]
+    }
+  }
+}

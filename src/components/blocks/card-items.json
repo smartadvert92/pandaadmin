@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_card_items",
+  "info": {
+    "displayName": "CardItems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CardItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.card-single"
+    }
+  }
+}

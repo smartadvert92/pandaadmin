@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_city_names",
+  "info": {
+    "displayName": "CityName",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CityName": {
+      "type": "string"
+    },
+    "Places": {
+      "type": "json"
+    }
+  }
+}

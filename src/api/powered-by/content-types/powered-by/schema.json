@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "powered_bies",
+  "info": {
+    "singularName": "powered-by",
+    "pluralName": "powered-bies",
+    "displayName": "Powered By",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "show": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

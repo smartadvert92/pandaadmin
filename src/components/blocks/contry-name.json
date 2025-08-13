@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_contry_names",
+  "info": {
+    "displayName": "CountryName",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CountryName": {
+      "type": "string"
+    },
+    "CityName": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.city-name"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_simple_texts",
+  "info": {
+    "displayName": "SimpleText",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TextBlock": {
+      "type": "string"
+    }
+  }
+}

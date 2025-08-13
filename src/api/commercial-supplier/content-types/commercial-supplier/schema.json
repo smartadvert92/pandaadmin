@@ -1,0 +1,100 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commercial_suppliers",
+  "info": {
+    "singularName": "commercial-supplier",
+    "pluralName": "commercial-suppliers",
+    "displayName": "CommercialSupplier",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "supplierName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "registrationNumber": {
+      "type": "string"
+    },
+    "businessUnit": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "brandName": {
+      "type": "string"
+    },
+    "existsInMarket": {
+      "type": "string"
+    },
+    "supplierOrigin": {
+      "type": "string"
+    },
+    "commercialRegistrationCopy": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "skuFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "skuPictures": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "marketingMaterial": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "marketingPlan": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "regulatoryCompliance": {
+      "type": "boolean"
+    },
+    "authoritiesApproval": {
+      "type": "boolean"
+    }
+  }
+}

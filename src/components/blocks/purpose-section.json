@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_blocks_purpose_sections",
+  "info": {
+    "displayName": "PurposeSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "PurposeItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.purpose-single"
+    }
+  }
+}

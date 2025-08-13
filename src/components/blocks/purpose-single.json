@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocks_purpose_singles",
+  "info": {
+    "displayName": "PurposeSingle"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "linkText": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_category_grids",
+  "info": {
+    "displayName": "CategoryGrid"
+  },
+  "options": {},
+  "attributes": {
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.category-item"
+    }
+  }
+}

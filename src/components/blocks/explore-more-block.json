@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_explore_more_blocks",
+  "info": {
+    "displayName": "ExploreMoreBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.buttons"
+    }
+  }
+}

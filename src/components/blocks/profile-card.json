@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_profile_cards",
+  "info": {
+    "displayName": "ProfileCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.profile-field"
+    },
+    "featured": {
+      "type": "boolean"
+    }
+  }
+}

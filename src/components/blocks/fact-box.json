@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_fact_boxes",
+  "info": {
+    "displayName": "FactBox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lineColor": {
+      "type": "enumeration",
+      "enum": [
+        "green",
+        "gray"
+      ]
+    },
+    "facts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.key-value"
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.bullet-point"
+    },
+    "displayType": {
+      "type": "enumeration",
+      "enum": [
+        "fact",
+        "bullet"
+      ]
+    }
+  }
+}

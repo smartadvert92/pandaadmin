@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_two_columns",
+  "info": {
+    "displayName": "TwoColumn"
+  },
+  "options": {},
+  "attributes": {
+    "leftText": {
+      "type": "richtext"
+    },
+    "rightText": {
+      "type": "richtext"
+    }
+  }
+}

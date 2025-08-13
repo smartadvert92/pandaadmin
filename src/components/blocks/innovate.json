@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_innovates",
+  "info": {
+    "displayName": "Innovate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "InnovateCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.innovate-card"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_profile_grids",
+  "info": {
+    "displayName": "ProfileGrid"
+  },
+  "options": {},
+  "attributes": {
+    "profiles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.profile-card"
+    }
+  }
+}

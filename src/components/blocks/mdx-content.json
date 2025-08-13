@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_mdx_contents",
+  "info": {
+    "displayName": "mdx-content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lastUpdated": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

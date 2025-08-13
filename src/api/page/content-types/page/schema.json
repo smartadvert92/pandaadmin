@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.timeline-item",
+        "blocks.shop-smart",
+        "blocks.shop-option",
+        "blocks.purpose-section",
+        "blocks.news-room",
+        "blocks.innovate",
+        "blocks.innovate-card",
+        "blocks.hero-section",
+        "blocks.future-retail",
+        "blocks.bullet-point",
+        "blocks.timeline-section",
+        "blocks.purpose-items",
+        "blocks.faq-block",
+        "blocks.explore-more-block",
+        "blocks.cxr-block",
+        "blocks.milestone-block",
+        "blocks.content-items",
+        "blocks.card-items",
+        "blocks.profile-grid",
+        "blocks.waste-section",
+        "blocks.two-column",
+        "blocks.sustainable-cards",
+        "blocks.program-goal",
+        "blocks.content-image",
+        "blocks.brand-section",
+        "blocks.fact-box",
+        "blocks.dark-green-section",
+        "blocks.separate-heading",
+        "blocks.carousel",
+        "blocks.category-grid",
+        "blocks.media",
+        "blocks.mdx-content"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

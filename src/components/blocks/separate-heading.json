@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_separate_headings",
+  "info": {
+    "displayName": "SeparateHeading"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "richtext"
+    }
+  }
+}

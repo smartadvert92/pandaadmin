@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_key_values",
+  "info": {
+    "displayName": "KeyValue"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "richtext"
+    }
+  }
+}

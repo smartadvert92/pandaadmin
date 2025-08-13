@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_egypts",
+  "info": {
+    "displayName": "Egypt"
+  },
+  "options": {},
+  "attributes": {
+    "Cario": {
+      "type": "json"
+    }
+  }
+}

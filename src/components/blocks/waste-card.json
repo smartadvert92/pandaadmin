@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_waste_cards",
+  "info": {
+    "displayName": "WasteCard"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "label": {
+      "type": "text"
+    }
+  }
+}

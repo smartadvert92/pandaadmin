@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_brand_sections",
+  "info": {
+    "displayName": "BrandSection"
+  },
+  "options": {},
+  "attributes": {
+    "brands": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.brand-card"
+    },
+    "footerText": {
+      "type": "richtext"
+    }
+  }
+}

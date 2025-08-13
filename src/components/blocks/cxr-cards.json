@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_cxr_cards",
+  "info": {
+    "displayName": "CXRCards"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "column_span": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_blocks_top_menus",
+  "info": {
+    "displayName": "Top Menu"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

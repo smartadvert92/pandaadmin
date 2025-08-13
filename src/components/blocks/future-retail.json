@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blocks_future_retails",
+  "info": {
+    "displayName": "FutureRetail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "BulletPoint": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.bullet-point"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.buttons"
+    }
+  }
+}

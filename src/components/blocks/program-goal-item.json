@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_program_goal_items",
+  "info": {
+    "displayName": "ProgramGoalItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.bullet-point"
+    }
+  }
+}

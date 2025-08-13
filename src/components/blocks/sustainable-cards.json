@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_sustainable_cards",
+  "info": {
+    "displayName": "SustainableCards"
+  },
+  "options": {},
+  "attributes": {
+    "sustainable_card_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.sustainable-card-item"
+    }
+  }
+}

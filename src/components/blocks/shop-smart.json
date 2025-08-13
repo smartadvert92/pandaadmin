@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_shop_smarts",
+  "info": {
+    "displayName": "ShopSmart",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "ShopOption": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.shop-option"
+    }
+  }
+}

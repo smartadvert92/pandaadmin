@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_dark_green_sections",
+  "info": {
+    "displayName": "DarkGreenSection"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.dark-green-item"
+    }
+  }
+}

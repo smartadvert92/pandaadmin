@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_waste_sections",
+  "info": {
+    "displayName": "WasteSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.waste-card"
+    }
+  }
+}

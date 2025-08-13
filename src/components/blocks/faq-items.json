@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_faq_items",
+  "info": {
+    "displayName": "FaqItems"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blocks_timeline_sections",
+  "info": {
+    "displayName": "TimelineSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "TimelineItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.timeline-item"
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.buttons"
+    }
+  }
+}
